@@ -79,6 +79,10 @@ These insights enable stakeholders to make informed strategic and operational de
 Detailed requirements can be found in `docs/requirements.md`.
 
 ---
-
+ 
 ## 📂 Repository Structure
 
+
+
+---
+## Credits to Data with Bara
