@@ -85,4 +85,4 @@ Detailed requirements can be found in `docs/requirements.md`.
 
 
 ---
-## Credits to Data with Bara
+## Credits to @DataWithBaraa
