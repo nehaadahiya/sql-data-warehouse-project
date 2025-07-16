@@ -1,41 +1,4 @@
-# Data Warehouse and Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository.  
-This project demonstrates the end-to-end development of a modern data warehouse using SQL Server, designed to enable actionable business insights through robust data modeling and analytics.
-
----
-
-## 📖 Project Overview
-
-This repository showcases:
-
-- **Data Architecture:** Follows a multi-layered Medallion Architecture (Bronze, Silver, Gold).
-- **ETL Pipelines:** Ingest, cleanse, and transform data using SQL scripts.
-- **Data Modeling:** Implements a star schema for simplified, performant analytics.
-- **Analytics & Reporting:** Enables key business insights using SQL-based analyses.
-
----
-
-## 🏗️ Data Architecture
-
-The warehouse is structured as follows:
-
-- **Bronze Layer:** Raw data from ERP and CRM systems ingested as-is (CSV format).
-- **Silver Layer:** Cleansed, standardized, and integrated data ready for modeling.
-- **Gold Layer:** Business-ready, analytics-optimized data modeled using a star schema.
-
----
-
-## ✨ Star Schema Overview
-
-The star schema in the Gold Layer simplifies analytical queries and supports business reporting. It consists of:
-
-- **Fact Table:** `fact_sales` (stores transactional sales data).
-- **Dimension Tables:** `dim_customers`, `dim_products`.
-
-This design reduces query complexity and improves performance, allowing for faster and more intuitive data exploration.
-
----
 
 ## 📄 Data Catalog — Gold Layer
 
