@@ -76,13 +76,18 @@ Develop SQL-based analyses to deliver insights on:
 
 These insights enable stakeholders to make informed strategic and operational decisions.
 
-Detailed requirements can be found in `docs/requirements.md`.
+Detailed information can be found in `docs/data_catalog.md`.
 
 ---
- 
-## 📂 Repository Structure
 
+## ✨ Star Schema Overview
 
+The star schema in the Gold Layer simplifies analytical queries and supports business reporting. It consists of:
+
+- **Fact Table:** `fact_sales` (stores transactional sales data).
+- **Dimension Tables:** `dim_customers`, `dim_products`.
+
+This design reduces query complexity and improves performance, allowing for faster and more intuitive data exploration.
 
 ---
 ## Credits to @DataWithBaraa
